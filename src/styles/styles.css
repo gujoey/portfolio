@@ -1,4 +1,13 @@
-/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat");
+body {
+  background-color: #EAEAEA; }
+
+small {
+  color: grey; }
+
+.navigation__navbrand {
+  color: "Julius Sans One", sans-serif; }
+
 .column-me-container {
   text-align: center;
   display: table;
@@ -11,3 +20,23 @@
 .column-me {
   display: table-cell;
   vertical-align: middle; }
+  .column-me__inner {
+    border: 2px solid #003366;
+    border-radius: 5px;
+    width: 65%;
+    margin: auto;
+    padding: 15px;
+    font-family: "Montserrat", sans-serif; }
+  .column-me__heading {
+    font-family: "Julius Sans One", sans-serif; }
+  .column-me__btn {
+    width: 80%;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #003366;
+    border-radius: 5px;
+    font-size: 18px; }
+    .column-me__btn:hover {
+      transition: 0.3s;
+      color: white;
+      background-color: #003366; }

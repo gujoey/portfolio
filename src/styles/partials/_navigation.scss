@@ -1,0 +1,18 @@
+.navigation{
+	&__navbrand{
+		font-family: $navbrand;
+		color: $marineblue !important;
+	}
+	&__navlink{
+		font-family: $navlink;
+		font-size: 18px;
+		&:hover{
+			transition: 0.3s;
+			color: $marineblue !important;
+		}
+	}
+	&__active{
+		color: $marineblue !important;
+		border-bottom: 2px solid $marineblue;
+	}
+}

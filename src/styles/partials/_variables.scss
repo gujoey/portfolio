@@ -1,12 +1,17 @@
 //imports
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Lato|Montserrat');
+
 
 //colors
-$lightgrey: lightgray;
+$lightgrey: lightgrey;
+$grey: grey;
 $white: white;
 $marineblue: #003366;
 $marineblueTrans:rgba(0,51,102, 0.5);
 
 //fonts
 $headings: 'Julius Sans One', sans-serif;
+$navbrand: 'Julius Sans One', sans-serif;
 $content: 'Montserrat', sans-serif;
+$navlink: 'Montserrat', sans-serif;
+
