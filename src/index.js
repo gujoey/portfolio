@@ -11,6 +11,7 @@ import {
 
 import App from './Components/App/App';
 import HomePage from './pages/homePage/homePage';
+import ProjectPage from './pages/projectPage/projectPage';
 
 
 
@@ -19,6 +20,7 @@ const routes = (
         <Switch>
             <App>
 				<Route path="/" exact component={HomePage} />
+				<Route path="/projects" exact component={ProjectPage} />
             </App>
         </Switch> 
     </HashRouter>

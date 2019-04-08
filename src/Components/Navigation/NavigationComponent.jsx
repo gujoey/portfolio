@@ -30,8 +30,8 @@ export default class NavigationComponent extends React.Component {
 		let path = app.props.location;
 		
 		const home = path === "/" ? "navigation__active " : "";
-		const packages = path === "/packages" ? "navigation__active " : "";
-		const contact = path === "/contact" || path === "/contact-success " ? "navigation__active" : "";
+		const projects = path === "/projects" ? "navigation__active " : "";
+		const skills = path === "/skills" ? "navigation__active " : "";
 		
 		return (
 			<Navbar className="[ navigation ]" color="light" light expand="md">
@@ -44,10 +44,10 @@ export default class NavigationComponent extends React.Component {
 							<NavLink className={home + "[ navigation__navlink ]"} href="#/">Home</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink className={packages + "[ navigation__navlink ]"} href="#/packages">Projects</NavLink>
+							<NavLink className={projects + "[ navigation__navlink ]"} href="#/projects">Projects</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink className={contact + "[ navigation__navlink ]"} href="#/contact">Skills</NavLink>
+							<NavLink className={skills + "[ navigation__navlink ]"} href="#/skills">Skills</NavLink>
 						</NavItem>
 					</Nav>
 				</Collapse>

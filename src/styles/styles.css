@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|Lato|Montserrat");
 body {
   background-color: #EAEAEA; }
 
@@ -6,22 +6,33 @@ small {
   color: grey; }
 
 .navigation__navbrand {
-  color: "Julius Sans One", sans-serif; }
+  font-family: "Julius Sans One", sans-serif;
+  color: #003366 !important; }
+.navigation__navlink {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px; }
+  .navigation__navlink:hover {
+    transition: 0.3s;
+    color: #003366 !important; }
+.navigation__active {
+  color: #003366 !important;
+  border-bottom: 2px solid #003366; }
 
-.column-me-container {
-  text-align: center;
-  display: table;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%; }
+.homepage {
+  margin-top: 30px; }
+  .homepage__container {
+    text-align: center;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
 
 .column-me {
   display: table-cell;
   vertical-align: middle; }
   .column-me__inner {
-    border: 2px solid #003366;
     border-radius: 5px;
     width: 65%;
     margin: auto;
@@ -40,3 +51,5 @@ small {
       transition: 0.3s;
       color: white;
       background-color: #003366; }
+
+/* CSS Document */

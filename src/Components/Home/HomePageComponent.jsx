@@ -3,7 +3,19 @@ import { Row, Col } from 'reactstrap';
 
 
 export default class HomePageComponent extends React.Component{
+	constructor(props){
+		super(props);
+		
+		this.handleClick = this.handleClick.bind(this);
+	}
+	
+	handleClick(){
+		let app = this;
+		app.props.handleClick();
+	}
+	
 	render(){
+		let app = this;
 		
 		return(
 			<Row className="[ homepage ]">
@@ -19,7 +31,7 @@ export default class HomePageComponent extends React.Component{
 									Frontend Developer <br/>
 									<small><i>Responsive Webdesign, UI/UX design, BEM, HTML, CSS/SCSS, JavaScript, React, Reactstrap/Bootstrap</i></small>
 								</p>
-								<button className="[ column-me__btn ]" type="button">My Projects</button>
+								<button className="[ column-me__btn ]" type="button" onClick={app.handleClick}>My Projects</button>
 							</div>
 						</div>
 					</div>
