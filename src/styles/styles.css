@@ -5,6 +5,10 @@ body {
 small {
   color: grey; }
 
+hr {
+  border: 2px solid #003366;
+  border-radius: 2px; }
+
 .navigation__navbrand {
   font-family: "Julius Sans One", sans-serif;
   color: #003366 !important; }
@@ -52,4 +56,39 @@ small {
       color: white;
       background-color: #003366; }
 
-/* CSS Document */
+.project-page {
+  margin: 30px auto 30px auto; }
+  .project-page__header {
+    text-align: center;
+    font-family: "Julius Sans One", sans-serif; }
+
+.col-center-container {
+  text-align: center; }
+  @media only screen and (min-width: 767px) {
+    .col-center-container {
+      display: table;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%; } }
+
+.column-description {
+  font-family: "Montserrat", sans-serif; }
+  @media only screen and (min-width: 767px) {
+    .column-description {
+      display: table-cell;
+      vertical-align: middle; } }
+  .column-description__heading {
+    font-family: "Julius Sans One", sans-serif; }
+  .column-description__btn {
+    width: 80%;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #003366;
+    border-radius: 5px;
+    font-size: 18px; }
+    .column-description__btn:hover {
+      transition: 0.3s;
+      color: white;
+      background-color: #003366; }

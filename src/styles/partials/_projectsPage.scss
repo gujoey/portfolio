@@ -1,7 +1,14 @@
 .project-page{
-	margin-top: 30px;
-	&__container{
+	margin: 30px auto 30px auto; 
+	&__header{
 		text-align: center;
+		font-family: $headings;
+	}
+}
+
+.col-center-container{
+	text-align: center;
+	@media only screen and (min-width: $BPmd){
 		display: table;
 		position: absolute;
 		top: 0;
@@ -12,16 +19,13 @@
 }
 
 .column-description{
-	display: table-cell;
-	vertical-align: middle;
-	&__inner{
-		//border: 2px solid $marineblue;
-		border-radius: 5px;
-		width: 65%;
-		margin: auto;
-		padding: 15px;
-		font-family: $content;
+	@media only screen and (min-width: $BPmd){
+		display: table-cell;
+		vertical-align: middle;
 	}
+	
+	font-family: $content;
+	
 	&__heading{
 		font-family: $headings;
 	}

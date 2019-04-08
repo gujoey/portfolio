@@ -43,9 +43,12 @@ export default class ProjectPage extends React.Component{
 		app.createProjects();
 		
 		return(
-			<Row>
-				{app.state.allProjects}
-			</Row>
+			<div className="[ project-page ]">
+				<h1 className="[ project-page__header ]">Projects</h1>
+				<Row>
+					{app.state.allProjects}
+				</Row>
+			</div>
 		);
 	}
 }
