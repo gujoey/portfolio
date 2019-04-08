@@ -16,11 +16,11 @@ export const projects = [
 		madeWith: "HTML, CSS, JavaScript, jQuery, fullPage.js"
 	},
 	{
-		name: "Fix Forsikring Website",
-		description: "Website for the norwegian company Fix Forsikring AS",
-		img: "fix.png",
+		name: "Letha",
+		description: "website for the mock company Letha",
+		img: "letha.png",
 		repo: "https://github.com/gujoey/fix-forsikring-website",
-		website: "https://fixforsikring.no/",
+		website: "https://github.com/gujoey/letha-website",
 		madeWith: "HTML, CSS, JavaScript, Bootstrap"
 	},
 	{
