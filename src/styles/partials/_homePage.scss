@@ -1,0 +1,38 @@
+.column-me-container{
+	text-align: center;
+	display: table;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.column-me{
+	display: table-cell;
+	vertical-align: middle;
+	&__inner{
+		border: 2px solid $marineblue;
+		border-radius: 5px;
+		width: 65%;
+		margin: auto;
+		padding: 15px;
+		font-family: $content;
+	}
+	&__heading{
+		font-family: $headings;
+	}
+	&__btn{
+		width: 80%;
+		height: 50px;
+		background-color: transparent;
+		border: 2px solid $marineblue;
+		border-radius: 5px;
+		font-size: 18px;
+		&:hover{
+			transition: 0.3s;
+			color: $white;
+			background-color: $marineblue;
+		}
+	}
+}
