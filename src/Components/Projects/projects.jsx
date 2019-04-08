@@ -8,12 +8,12 @@ export const projects = [
 		madeWith: "HTML, CSS, JavaScript, Bootstrap"
 	},
 	{
-		name: "Fix Forsikring Website",
-		description: "Website for the norwegian company Fix Forsikring AS",
-		img: "fix.png",
-		repo: "https://github.com/gujoey/fix-forsikring-website",
-		website: "https://fixforsikring.no/",
-		madeWith: "HTML, CSS, JavaScript, Bootstrap"
+		name: "SpaceX Mock Website",
+		description: "Mock micro webiste for SpaceX",
+		img: "spacex.png",
+		repo: "https://github.com/gujoey/spacex-microsite",
+		website: "https://gujoey.github.io/spacex-microsite/",
+		madeWith: "HTML, CSS, JavaScript, jQuery, fullPage.js"
 	},
 	{
 		name: "Fix Forsikring Website",

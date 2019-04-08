@@ -29,7 +29,7 @@ export default class HomePageComponent extends React.Component{
 								<h1 className="[ column-me__heading ]">Øyvind Gujord</h1>
 								<p>
 									Frontend Developer <br/>
-									<small><i>Responsive Webdesign, UI/UX design, BEM, HTML, CSS/SCSS, JavaScript, React, Reactstrap/Bootstrap</i></small>
+									<small><i>Responsive Webdesign, UI/UX design, BEM, HTML, CSS/SCSS, jQuery, JavaScript, React, Reactstrap/Bootstrap</i></small>
 								</p>
 								<button className="[ column-me__btn ]" type="button" onClick={app.handleClick}>My Projects</button>
 							</div>

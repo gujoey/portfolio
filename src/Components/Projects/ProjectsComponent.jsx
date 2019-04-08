@@ -17,10 +17,16 @@ export default class ProjectsComponent extends React.Component{
 							<div className="[ column-description ]">
 								<h1 className="[ column-description__heading ]">{app.props.name}</h1>
 								<p>
-									<span>{app.props.description}</span><br/><br/>
-									<span>Made with: <br/>{app.props.madeWith}</span><br/><br/>
-									<a rel="noopener noreferrer" target="_blank" href={app.props.website}>Website</a><br/>
-									<a rel="noopener noreferrer" target="_blank" href={app.props.repo}>GitHub Repository</a><br/>
+									<i>{app.props.description}</i><br/><br/>
+									
+									<strong>Made with:</strong><br/>
+									{app.props.madeWith}<br/><br/>
+									
+									<strong>Website:</strong><br/>
+									<a rel="noopener noreferrer" target="_blank" href={app.props.website}>{app.props.website}</a><br/><br/>
+									
+									<strong>GitHub repository:</strong><br/>
+									<a rel="noopener noreferrer" target="_blank" href={app.props.repo}>{app.props.repo}</a><br/>
 								</p>
 							</div>
 						</div>

@@ -9,9 +9,11 @@ hr {
   border: 2px solid #003366;
   border-radius: 2px; }
 
+a {
+  color: #003366; }
+
 .navigation__navbrand {
-  font-family: "Julius Sans One", sans-serif;
-  color: #003366 !important; }
+  font-family: "Julius Sans One", sans-serif; }
 .navigation__navlink {
   font-family: "Montserrat", sans-serif;
   font-size: 18px; }
@@ -38,7 +40,7 @@ hr {
   vertical-align: middle; }
   .column-me__inner {
     border-radius: 5px;
-    width: 65%;
+    width: 70%;
     margin: auto;
     padding: 15px;
     font-family: "Montserrat", sans-serif; }
