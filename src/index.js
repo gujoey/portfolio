@@ -12,15 +12,17 @@ import {
 import App from './Components/App/App';
 import HomePage from './pages/homePage/homePage';
 import ProjectPage from './pages/projectPage/projectPage';
+import SkillsPage from './pages/skillsPage/skillsPage';
 
 
 
 const routes = (
-    <HashRouter>
+    <HashRouter basename='/'>
         <Switch>
             <App>
 				<Route path="/" exact component={HomePage} />
 				<Route path="/projects" exact component={ProjectPage} />
+				<Route path="/skills" exact component={SkillsPage} />
             </App>
         </Switch> 
     </HashRouter>

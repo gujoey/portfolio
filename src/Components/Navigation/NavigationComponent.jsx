@@ -43,16 +43,16 @@ export default class NavigationComponent extends React.Component {
 				<Collapse isOpen={this.state.isOpen} navbar>
 					<Nav className="[ ml-auto ]" navbar>
 						<NavItem>
-							<NavLink  className={home + "[ navigation__navlink ]"} onClick={this.toggle} href="#/">Home</NavLink>
+							<NavLink  className={home + "[ navigation__navlink ]"} href="#/">Home</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink className={projects + "[ navigation__navlink ]"} onClick={this.toggle} href="#/projects">Projects</NavLink>
+							<NavLink className={projects + "[ navigation__navlink ]"} href="#/projects">Projects</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink className={skills + "[ navigation__navlink ]"} onClick={this.toggle} href="#/skills">Skills</NavLink>
+							<NavLink className={skills + "[ navigation__navlink ]"} href="#/skills">Skills</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink className={ "[ navigation__navlink ]"} rel="noopener noreferrer" target="_blank" onClick={this.toggle} href="https://github.com/gujoey">GitHub</NavLink>
+							<NavLink className={ "[ navigation__navlink ]"} rel="noopener noreferrer" target="_blank" href="https://github.com/gujoey">GitHub</NavLink>
 						</NavItem>
 					</Nav>
 				</Collapse>

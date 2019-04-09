@@ -1,5 +1,13 @@
 export const projects = [
 	{
+		name: "Island Escape Mock Website",
+		description: "Website for the mock company Island Escapes",
+		img: "island-escape.png",
+		repo: "https://github.com/gujoey/island-escapes",
+		website: "https://gujoey.github.io/island-escapes/",
+		madeWith: "React, Reactstrap, SCSS"
+	},
+	{
 		name: "Fix Forsikring Website",
 		description: "Website for the norwegian company Fix Forsikring AS",
 		img: "fix.png",
@@ -16,7 +24,7 @@ export const projects = [
 		madeWith: "HTML, CSS, JavaScript, jQuery, fullPage.js"
 	},
 	{
-		name: "Letha",
+		name: "Letha Mock Website",
 		description: "website for the mock company Letha",
 		img: "letha.png",
 		repo: "https://github.com/gujoey/fix-forsikring-website",
@@ -24,27 +32,11 @@ export const projects = [
 		madeWith: "HTML, CSS, JavaScript, Bootstrap"
 	},
 	{
-		name: "Fix Forsikring Website",
-		description: "Website for the norwegian company Fix Forsikring AS",
-		img: "fix.png",
-		repo: "https://github.com/gujoey/fix-forsikring-website",
-		website: "https://fixforsikring.no/",
-		madeWith: "HTML, CSS, JavaScript, Bootstrap"
-	},
-	{
-		name: "Fix Forsikring Website",
-		description: "Website for the norwegian company Fix Forsikring AS",
-		img: "fix.png",
-		repo: "https://github.com/gujoey/fix-forsikring-website",
-		website: "https://fixforsikring.no/",
-		madeWith: "HTML, CSS, JavaScript, Bootstrap"
-	},
-	{
-		name: "Fix Forsikring Website",
-		description: "Website for the norwegian company Fix Forsikring AS",
-		img: "fix.png",
-		repo: "https://github.com/gujoey/fix-forsikring-website",
-		website: "https://fixforsikring.no/",
-		madeWith: "HTML, CSS, JavaScript, Bootstrap"
+		name: "A Game of Boards",
+		description: "Board game mixup between Snakes and Ladders and Game of Thrones",
+		img: "got.png",
+		repo: "https://github.com/gujoey/GoT-boardgame",
+		website: "https://gujoey.github.io/GoT-boardgame/html/",
+		madeWith: "HTML, SCSS, JavaScript, Bootstrap"
 	}
 ];

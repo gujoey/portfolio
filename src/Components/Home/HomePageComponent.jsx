@@ -20,7 +20,7 @@ export default class HomePageComponent extends React.Component{
 		return(
 			<Row className="[ homepage ]">
 				<Col md="6">
-					<img className="[ img-fluid ]" src={require("./../../img/photos/gujord2.png")} alt="Øyvind Gujord"/>
+					<img className="[ img-fluid ]" src={require("./../../img/photos/gujord.png")} alt="Øyvind Gujord"/>
 				</Col>
 				<Col md="6">
 					<div className="[ homepage__container ]">
