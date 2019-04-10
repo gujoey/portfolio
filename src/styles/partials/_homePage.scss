@@ -19,6 +19,9 @@
 		margin: auto;
 		padding: 15px;
 		font-family: $content;
+		@media screen and (max-width: $BPmd){
+			width: 98%;
+		}
 	}
 	&__heading{
 		font-family: $headings;
@@ -30,6 +33,9 @@
 		border: 2px solid $marineblue;
 		border-radius: 5px;
 		font-size: 18px;
+		@media screen and (max-width: $BPmd){
+			width: 98%;
+		}
 		&:hover{
 			transition: 0.3s;
 			color: $white;

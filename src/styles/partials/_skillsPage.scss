@@ -2,6 +2,8 @@
 	margin-top: 30px;
 	
 	&__center{
+		@media screen and (min-width: $BPlg){
+
 		text-align: center;
 		display: table;
 		position: absolute;
@@ -9,6 +11,7 @@
 		left: 0;
 		height: 100%;
 		width: 100%;
+		}
 	}
 }
 
@@ -19,8 +22,13 @@
 	height: 100%;
 	
 	&--vertical-align{
-		display: table-cell;
-		vertical-align: middle;
+		@media screen and (min-width: $BPlg){
+			display: table-cell;
+			vertical-align: middle;
+		}
+		@media screen and (max-width: $BPlg){
+			margin-top: 15px;
+		}
 	}
 	
 	&__header{

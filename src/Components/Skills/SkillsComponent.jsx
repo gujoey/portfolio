@@ -10,7 +10,7 @@ export default class SkillsComponent extends React.Component{
 			<Col md="6" className="[ d-flex flex-column ]">
 				<div className="[ skills-column ]">
 					<Row>
-						<Col md="7">
+						<Col lg="7">
 							<div id={"tooltip-" + this.props.id}>
 								<CircularProgressbar
 									percentage={app.props.rating}
@@ -23,7 +23,7 @@ export default class SkillsComponent extends React.Component{
        						Rating is based on my knowledge and understanding of the tool
      			 		</UncontrolledTooltip>
 						
-						<Col md="5">
+						<Col lg="5">
 							<div className="[ skills-page__center ]">
 								<div className="[ skills-column--vertical-align ]">
 									<h2>{app.props.skillName}</h2>
@@ -37,9 +37,3 @@ export default class SkillsComponent extends React.Component{
 		);
 	}
 }
-
-/*
-<UncontrolledTooltip placement="top" target={"lorem"}>
-       							 Hello world!
-     			 			</UncontrolledTooltip>
-							*/

@@ -25,9 +25,14 @@ export const skills = [
 		rating: 80
 	},
 	{
-		skillName: "Reactstrap / Bootstrap",
+		skillName: "Bootstrap",
 		icon: "[ fab fa-bootstrap fa-5x ]",
 		rating: 80
+	},
+	{
+		skillName: "GitHub",
+		icon: "[ fab fa-github fa-5x ]",
+		rating: 70
 	},
 	{
 		skillName: "Responsive Webdesign",

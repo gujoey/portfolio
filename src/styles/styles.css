@@ -28,6 +28,11 @@ h1, h2, h2 {
   border-bottom: 2px solid #003366;
   transition: none !important; }
 
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active {
+  border: none;
+  outline: none;
+  box-shadow: none; }
+
 .homepage {
   margin-top: 30px; }
   .homepage__container {
@@ -47,6 +52,9 @@ h1, h2, h2 {
     margin: auto;
     padding: 15px;
     font-family: "Montserrat", sans-serif; }
+    @media screen and (max-width: 767px) {
+      .column-me__inner {
+        width: 98%; } }
   .column-me__heading {
     font-family: "Julius Sans One", sans-serif; }
   .column-me__btn {
@@ -56,6 +64,9 @@ h1, h2, h2 {
     border: 2px solid #003366;
     border-radius: 5px;
     font-size: 18px; }
+    @media screen and (max-width: 767px) {
+      .column-me__btn {
+        width: 98%; } }
     .column-me__btn:hover {
       transition: 0.3s;
       color: white;
@@ -152,25 +163,28 @@ h1, h2, h2 {
 
 .skills-page {
   margin-top: 30px; }
-  .skills-page__center {
-    text-align: center;
-    display: table;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%; }
+  @media screen and (min-width: 992px) {
+    .skills-page__center {
+      text-align: center;
+      display: table;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%; } }
 
 .skills-column {
   text-align: center;
   margin-bottom: 30px;
-  border-bottom: 4px solid #003366;
-  border-radius: 2px;
   padding: 30px;
   height: 100%; }
-  .skills-column--vertical-align {
-    display: table-cell;
-    vertical-align: middle; }
+  @media screen and (min-width: 992px) {
+    .skills-column--vertical-align {
+      display: table-cell;
+      vertical-align: middle; } }
+  @media screen and (max-width: 992px) {
+    .skills-column--vertical-align {
+      margin-top: 15px; } }
   .skills-column__header {
     text-align: center;
     display: table;
