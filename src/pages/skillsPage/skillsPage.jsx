@@ -28,6 +28,7 @@ export default class SkillsPage extends React.Component{
 			app.state.allSkills.push(
 				<SkillsComponent
 					skillName={value.skillName}
+					icon={value.icon}
 					rating={value.rating}
 					key={key}
 				/>
@@ -41,6 +42,7 @@ export default class SkillsPage extends React.Component{
 		
 		return(
 			<Container className="[ skills-page ]">
+				<h1 className="[ text-center ]">My skills</h1>
 				<Row className="[ row-eq-height ]">{app.state.allSkills}</Row>
 			</Container>
 		);

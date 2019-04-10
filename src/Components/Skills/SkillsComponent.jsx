@@ -2,8 +2,6 @@ import React from 'react';
 import { Row, Col } from 'reactstrap';
 import CircularProgressbar from 'react-circular-progressbar';
 
-
-
 export default class SkillsComponent extends React.Component{
 	
 	render(){
@@ -21,7 +19,8 @@ export default class SkillsComponent extends React.Component{
 						<Col md="5">
 							<div className="[ skills-page__center ]">
 								<div className="[ skills-column--vertical-align ]">
-									<h2>{app.props.skillName}</h2><br/>
+									<h2>{app.props.skillName}</h2>
+									<i class={app.props.icon}></i>
 								</div>
 							</div>
 						</Col>
