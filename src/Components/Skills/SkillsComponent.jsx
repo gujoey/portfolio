@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'reactstrap';
+import { Row, Col, UncontrolledTooltip } from 'reactstrap';
 import CircularProgressbar from 'react-circular-progressbar';
 
 export default class SkillsComponent extends React.Component{
@@ -11,16 +11,23 @@ export default class SkillsComponent extends React.Component{
 				<div className="[ skills-column ]">
 					<Row>
 						<Col md="7">
-							<CircularProgressbar
-							  percentage={app.props.rating}
-							  text={`${app.props.rating}%`}
-							/>
+							<div id={"tooltip-" + this.props.id}>
+								<CircularProgressbar
+									percentage={app.props.rating}
+									text={`${app.props.rating}%`}
+								/>
+							</div>
 						</Col>
+						
+						<UncontrolledTooltip placement="top" target={"tooltip-" + this.props.id}>
+       						Rating is based on my knowledge and understanding of the tool
+     			 		</UncontrolledTooltip>
+						
 						<Col md="5">
 							<div className="[ skills-page__center ]">
 								<div className="[ skills-column--vertical-align ]">
 									<h2>{app.props.skillName}</h2>
-									<i class={app.props.icon}></i>
+									<i className={app.props.icon}></i>
 								</div>
 							</div>
 						</Col>
@@ -30,3 +37,9 @@ export default class SkillsComponent extends React.Component{
 		);
 	}
 }
+
+/*
+<UncontrolledTooltip placement="top" target={"lorem"}>
+       							 Hello world!
+     			 			</UncontrolledTooltip>
+							*/

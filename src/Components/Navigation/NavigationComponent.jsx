@@ -52,6 +52,9 @@ export default class NavigationComponent extends React.Component {
 							<NavLink className={skills + "[ navigation__navlink ]"} href="#/skills">Skills</NavLink>
 						</NavItem>
 						<NavItem>
+							<NavLink className={"[ navigation__navlink ]"} href="mailto:oyvind_gujord@hotmail.com" target="_top">Contact</NavLink>
+						</NavItem>
+						<NavItem>
 							<NavLink className={ "[ navigation__navlink ]"} rel="noopener noreferrer" target="_blank" href="https://github.com/gujoey">GitHub</NavLink>
 						</NavItem>
 					</Nav>

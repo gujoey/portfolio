@@ -30,6 +30,7 @@ export default class SkillsPage extends React.Component{
 					skillName={value.skillName}
 					icon={value.icon}
 					rating={value.rating}
+					id={key}
 					key={key}
 				/>
 			);
