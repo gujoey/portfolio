@@ -13,5 +13,6 @@
 	&__active{
 		color: $marineblue !important;
 		border-bottom: 2px solid $marineblue;
+		transition: none !important;
 	}
 }

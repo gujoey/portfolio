@@ -25,7 +25,8 @@ h1, h2, h2 {
     color: #003366 !important; }
 .navigation__active {
   color: #003366 !important;
-  border-bottom: 2px solid #003366; }
+  border-bottom: 2px solid #003366;
+  transition: none !important; }
 
 .homepage {
   margin-top: 30px; }
@@ -42,7 +43,6 @@ h1, h2, h2 {
   display: table-cell;
   vertical-align: middle; }
   .column-me__inner {
-    border-radius: 5px;
     width: 70%;
     margin: auto;
     padding: 15px;
@@ -97,3 +97,85 @@ h1, h2, h2 {
       transition: 0.3s;
       color: white;
       background-color: #003366; }
+
+/*
+ * react-circular-progressbar styles
+ *
+ * All of the styles in this file are optional and configurable!
+ */
+.CircularProgressbar {
+  /*
+   * This fixes an issue where the CircularProgressbar svg has
+   * 0 width inside a "display: flex" container, and thus not visible.
+   *
+   * If you're not using "display: flex", you can remove this style.
+   */
+  width: 100%; }
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #003366;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s; }
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #d6d6d6; }
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #003366;
+  font-size: 20px;
+  dominant-baseline: middle;
+  text-anchor: middle; }
+
+.CircularProgressbar .CircularProgressbar-background {
+  fill: #d6d6d6; }
+
+/*
+ * Sample background styles. Use these with e.g.:
+ *
+ *   <CircularProgressbar
+ *     className="CircularProgressbar-inverted"
+ *     background
+ *     percentage={50}
+ *   />
+ */
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+  fill: #003366; }
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+  fill: #fff; }
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+  stroke: #fff; }
+
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+  stroke: transparent; }
+
+.skills-page {
+  margin-top: 30px; }
+  .skills-page__center {
+    text-align: center;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+.skills-column {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 4px solid #003366;
+  border-radius: 2px;
+  padding: 30px;
+  height: 100%; }
+  .skills-column--vertical-align {
+    display: table-cell;
+    vertical-align: middle; }
+  .skills-column__header {
+    text-align: center;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }

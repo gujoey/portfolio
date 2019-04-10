@@ -4,6 +4,7 @@ import { Container, Row } from 'reactstrap';
 
 import { skills } from './../../Components/Skills/Skills';
 
+
 export default class SkillsPage extends React.Component{
 	constructor(props){
 		super(props);
@@ -28,7 +29,6 @@ export default class SkillsPage extends React.Component{
 				<SkillsComponent
 					skillName={value.skillName}
 					rating={value.rating}
-					comment={value.comment}
 					key={key}
 				/>
 			);
@@ -40,8 +40,8 @@ export default class SkillsPage extends React.Component{
 		app.createSkills();
 		
 		return(
-			<Container>
-				<Row>{app.state.allSkills}</Row>
+			<Container className="[ skills-page ]">
+				<Row className="[ row-eq-height ]">{app.state.allSkills}</Row>
 			</Container>
 		);
 	}
