@@ -1,6 +1,31 @@
+# Island Escapes mock website
+Portfolio website of my work as a frontend developer. The app is made with [React](https://reactjs.org/) and [Reactstrap](https://reactstrap.github.io/).
+
+**Live site:**  
+[https://gujoey.github.io/portfolio/](https://gujoey.github.io/portfolio/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+[Install](#install) | [Scripts](#available-scripts) | [Learn more](#learn-more) 
+***
+
+# Install
+**Step 1**  
+In order to run this project you will have to have [node.js](https://nodejs.org/en/) installed. You can download it from [here](https://nodejs.org/en/).
+
+**Step 2**  
+Clone this repository and ```cd``` into it through your terminal.
+
+**Step 3**  
+Inside the project root directory, install the project using ```npm install```
+
+**Step 4**  
+After the project is installed you can run ```npm start``` to run the project in development mode.
+If you want to run the project in production mode, use the command ```npm run build```
+
+See [available scripts](#available-scripts) to see the what commands you can use in this project.
+
+# Available Scripts
 
 In the project directory, you can run:
 
@@ -37,7 +62,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+# Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
