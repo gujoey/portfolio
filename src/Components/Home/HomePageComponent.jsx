@@ -6,12 +6,18 @@ export default class HomePageComponent extends React.Component{
 	constructor(props){
 		super(props);
 		
-		this.handleClick = this.handleClick.bind(this);
+		this.handleClickProjects = this.handleClickProjects.bind(this);
+		this.handleClickEmail = this.handleClickEmail.bind(this);
 	}
 	
-	handleClick(){
+	handleClickProjects(){
 		let app = this;
-		app.props.handleClick();
+		app.props.handleClickProjects();
+	}
+	
+	handleClickEmail(){
+		let app = this;
+		app.props.handleClickEmail();
 	}
 	
 	render(){
@@ -31,7 +37,8 @@ export default class HomePageComponent extends React.Component{
 									Frontend Developer <br/>
 									<small><i>Responsive Webdesign, UI/UX design, BEM, HTML, CSS/SCSS, jQuery, JavaScript, React, Reactstrap/Bootstrap</i></small>
 								</p>
-								<button className="[ column-me__btn ]" type="button" onClick={app.handleClick}>My Projects</button>
+								<button className="[ column-me__btn ]" type="button" onClick={app.handleClickProjects}>My projects</button><br/><br/>
+								<button className="[ column-me__btn ]" type="button" onClick={app.handleClickEmail}>Email me</button>
 							</div>
 						</div>
 					</div>
