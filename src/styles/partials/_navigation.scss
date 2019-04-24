@@ -5,6 +5,9 @@
 	&__navlink{
 		font-family: $navlink;
 		font-size: 18px;
+		@media only screen and (min-width: $BPmdNav){
+			margin: auto 25px auto 25px; 
+		}
 		&:hover{
 			transition: 0.3s;
 			color: $marineblue !important;
@@ -21,4 +24,4 @@
 	border: none;
     outline: none;
     box-shadow: none;
-  }
+}

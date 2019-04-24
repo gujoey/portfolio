@@ -20,6 +20,9 @@ h1, h2, h2 {
 .navigation__navlink {
   font-family: "Montserrat", sans-serif;
   font-size: 18px; }
+  @media only screen and (min-width: 834px) {
+    .navigation__navlink {
+      margin: auto 25px auto 25px; } }
   .navigation__navlink:hover {
     transition: 0.3s;
     color: #003366 !important; }
