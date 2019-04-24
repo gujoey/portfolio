@@ -1,4 +1,4 @@
-# Island Escapes mock website
+# Portfolio website
 Portfolio website of my work as a frontend developer. The app is made with [React](https://reactjs.org/) and [Reactstrap](https://reactstrap.github.io/).
 
 **Live site:**  
